@@ -7,6 +7,13 @@ h1 {  font-family: 'Montserrat', "sans-serif";
         line-height: 1.5;
         font-weight: 900;
     }
+h2 {
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 900;
+}
 
 #title {
     background-color: #ff4c68;
@@ -76,7 +83,6 @@ font-size: 1.5rem;
 /* Testimonials */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -94,6 +100,10 @@ font-size: 1.5rem;
     margin: 20px;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 /* Press */
 
 #press {
@@ -105,4 +115,14 @@ font-size: 1.5rem;
 #press>img {
     width: 13%;
     margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.carda {
+    padding: 3% 2%;
 }
