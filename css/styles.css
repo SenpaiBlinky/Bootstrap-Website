@@ -7,21 +7,19 @@ h1 {  font-family: 'Montserrat', "sans-serif";
         line-height: 1.5;
         font-weight: 900;
     }
-h2 {
-    font-weight: 900;
-}
 
-h3 {
-    font-weight: 900;
-}
+    h1, h2, h3 ,h4, h5 ,h6 {
+        font-weight: 900;
+    }
 
 #title {
     background-color: #ff4c68;
     color: #fff;
+    /* text-align: center; */
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar-brand {
@@ -50,7 +48,14 @@ h3 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
-}
+    position: absolute;
+    right: 30%;
+  }
+  
+  
+  .title-image-container {
+    position: relative;
+  }
 
 /* NOTIF */
 
@@ -77,7 +82,10 @@ font-size: 1.5rem;
 }
 
 #features {
-    margin: 10rem 0 10rem 0;
+    background-color: #fff;
+    padding: 10rem 0 10rem 0;
+    position: relative;
+    z-index: 1;
 }
 
 /* Testimonials */
@@ -126,3 +134,48 @@ font-size: 1.5rem;
 .carda {
     padding: 3% 2%;
 }
+
+/* Media query practice */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+/* Call to action */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#cta>div>h1 {
+    font-weight: 900;
+    color: #fff;
+}
+
+.cta-container {
+    padding: 100px;
+}
+
+/*---------  Footer  -----------*/
+
+#footer {
+    text-align: center;
+    padding: 100px;
+}
+
+#footer>p>i {
+ margin: 10px;
+}
+
+
+
+
